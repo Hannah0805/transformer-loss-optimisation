@@ -1,0 +1,7 @@
+metric,count
+total_candidates,1107
+flux_pass,1050
+voltage_pass,308
+passes_both,251
+passing_below_1t_loaded,129
+complete_objectives,1107

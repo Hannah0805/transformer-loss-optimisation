@@ -1,0 +1,33 @@
+parameter,value,unit,evidence,source_or_rationale
+primary_rms_v,230,V,project brief,Nominal supply
+secondary_target_rms_v,24,V,project brief,Target terminal voltage
+frequency_hz,50,Hz,project brief,Nominal frequency
+rated_va,100,VA,project brief,Apparent power rating
+load_power_factor,1,dimensionless,project brief,Unity power factor is the scope of the resistive circuit
+primary_turns,600,turn,project brief,Baseline primary turns
+secondary_turns,63,turn,project brief,Baseline secondary turns calculated independently by rounding
+effective_area_m2,0.0012,m²,project brief,12 cm² of effective steel area
+centre_width_m,0.035,m,provisional,Illustrative centre-limb width with a stack depth of comparable scale
+window_width_m,0.018,m,provisional,Illustrative individual iron-to-iron window width
+window_height_m,0.050,m,provisional,Illustrative iron-to-iron window height
+stacking_factor,0.95,fraction,provisional,Illustrative steel fraction of gross stack depth; actual coating and assembly are unresolved
+former_wall_m,0.001,m,provisional,Radial allowance for bobbin wall
+outer_clearance_m,0.001,m,provisional,Radial clearance to outer limb
+end_margin_m,0.003,m,provisional,Axial margin at each end
+winding_barrier_m,0.001,m,provisional,Radial allowance between the windings
+primary_bare_diameter_m,0.00045,m,provisional,Illustrative copper diameter selected for nominal current-density screening
+primary_insulated_diameter_m,0.00050,m,provisional,Illustrative wire outside diameter
+secondary_bare_diameter_m,0.00120,m,provisional,Illustrative copper diameter selected for nominal current-density screening
+secondary_insulated_diameter_m,0.00130,m,provisional,Illustrative wire outside diameter
+primary_lead_length_m,0.20,m,provisional,Combined primary lead allowance
+secondary_lead_length_m,0.20,m,provisional,Combined secondary lead allowance
+winding_temperature_c,60,°C,provisional,Common specified winding temperature for this scenario
+copper_resistivity_20_ohm_m,1.7241e-8,Ω·m,reference,CU-1 standard annealed copper at 20 °C
+copper_temp_coefficient_per_k,0.00393,K^-1,reference,CU-1 resistance temperature coefficient near 20 °C
+sheet_thickness_m,0.00035,m,carried-forward illustrative geometry input,Prior numerical value retained to isolate the loss-model and screening changes
+steel_density_kg_m3,7690,kg/m³,carried-forward illustrative geometry input,Prior numerical value retained to isolate the loss-model and screening changes
+primary_conductor_area_m2,1.5904312808798326e-07,m²,version 2 manifest,Existing bare diameter
+secondary_conductor_area_m2,1.1309733552923253e-06,m²,version 2 manifest,Existing bare diameter
+copper_density_kg_m3,8890,kg/m³,version 2 manifest,Retained Stage 4 diagnostic reference
+no_drop_flux_max,1.5,T,version 2 manifest,Requested screening ceiling
+terminal_voltage_min,22.0,V RMS,version 2 manifest,Requested screening floor

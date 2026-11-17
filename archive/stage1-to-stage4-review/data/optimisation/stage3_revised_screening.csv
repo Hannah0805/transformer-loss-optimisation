@@ -1,0 +1,232 @@
+stage3_sweep,geometry,primary_turns,secondary_turns,effective_area_cm2,bmax_nominal_no_drop_t,load_terminal_v,effective_bmax_limit_t,stage3_original_screen_pass,stage3_original_failures,hysteresis_domain_covered,total_mid_w,bmax_pass,vload_pass,both_screens_pass,rankable
+A selected winding turns,fixed core,480,50,12.0,1.7975065339942222,22.737877169830146,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+A selected winding turns,fixed core,485,51,12.0,1.7789755387984056,22.94705844059355,1.5,False,Peak flux at screening envelope,False,,False,True,False,False
+A selected winding turns,fixed core,490,51,12.0,1.760822727178014,22.690861812509116,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+A selected winding turns,fixed core,495,52,12.0,1.7430366390247005,22.895615935531563,1.5,False,Peak flux at screening envelope,False,,False,True,False,False
+A selected winding turns,fixed core,500,52,12.0,1.7256062726344537,22.644556102760944,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+A selected winding turns,fixed core,505,53,12.0,1.7085210620143105,22.845049257372715,1.5,False,Peak flux at screening envelope,False,,False,True,False,False
+A selected winding turns,fixed core,510,53,12.0,1.6917708555239743,22.598913395750937,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+A selected winding turns,fixed core,515,54,12.0,1.6753458957616052,22.795302513757655,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+A selected winding turns,fixed core,520,54,12.0,1.6592368006100513,22.553890581470995,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+A selected winding turns,fixed core,525,55,12.0,1.6434345453661463,22.746324017784094,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+A selected winding turns,fixed core,530,55,12.0,1.62793044588156,22.491031683745057,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+A selected winding turns,fixed core,535,56,12.0,1.612716142649022,22.67933569743108,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+A selected winding turns,fixed core,540,56,12.0,1.5977835857726423,22.44647731173052,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+A selected winding turns,fixed core,545,57,12.0,1.5831250207655536,22.631095668023317,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+A selected winding turns,fixed core,550,57,12.0,1.5687329751222303,22.40242810262032,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+A selected winding turns,fixed core,555,58,12.0,1.5546002456166248,22.58348693151367,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+A selected winding turns,fixed core,560,59,12.0,1.540719886280762,22.76095764117535,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+A selected winding turns,fixed core,565,59,12.0,1.5270851970216404,22.53647102362634,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,True,9.381522307306522,False,True,False,False
+A selected winding turns,fixed core,570,60,12.0,1.51368971283724,22.710624114511944,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,True,9.362986417827209,False,True,False,False
+A selected winding turns,fixed core,575,60,12.0,1.5005271935951772,22.49001209882612,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,True,9.423477629233956,False,True,False,False
+A selected winding turns,fixed core,580,61,12.0,1.487591614340046,22.660955075865537,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,True,9.407636456270183,True,True,True,True
+A selected winding turns,fixed core,585,61,12.0,1.4748771560978233,22.44407670546934,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,True,9.471319741674513,True,True,True,True
+A selected winding turns,fixed core,590,62,12.0,1.4623781971478422,22.611911869662517,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,True,9.458002321927768,True,True,True,True
+A selected winding turns,fixed core,595,62,12.0,1.450089304734835,22.39863358360443,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,True,9.524715498032032,True,True,True,True
+A selected winding turns,fixed core,600,63,12.0,1.4380052271953783,22.563458360356353,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,True,9.513765193298564,True,True,True,True
+A selected winding turns,fixed core,605,63,12.0,1.4261208864747552,22.35365348280073,1.5,False,Loaded secondary voltage error,True,9.583359926086933,True,True,True,True
+A selected winding turns,fixed core,610,64,12.0,1.414431371011847,22.515560724828383,1.5,False,Loaded secondary voltage error,True,9.57463302981856,True,True,True,True
+A selected winding turns,fixed core,615,64,12.0,1.4029319289711004,22.309108997725076,1.5,False,Loaded secondary voltage error,True,9.646973513645165,True,True,True,True
+A selected winding turns,fixed core,620,65,12.0,1.3916179618019788,22.446031593646172,1.5,False,Loaded secondary voltage error,True,9.74612839456731,True,True,True,True
+A selected winding turns,fixed core,625,65,12.0,1.380485018107563,22.24245847011367,1.5,False,Loaded secondary voltage error,True,9.82388667004367,True,True,True,True
+A selected winding turns,fixed core,630,66,12.0,1.369528787805122,22.39846442888128,1.5,False,Loaded secondary voltage error,True,9.820046497355461,True,True,True,True
+A selected winding turns,fixed core,635,66,12.0,1.358745096562562,22.198020820030823,1.5,False,Loaded secondary voltage error,True,9.900347195742917,True,True,True,True
+A selected winding turns,fixed core,640,67,12.0,1.348129900495667,22.35047023905496,1.5,False,Loaded secondary voltage error,True,9.902657657776134,True,True,True,True
+A selected winding turns,fixed core,645,67,12.0,1.3376792811119795,22.15304353554223,1.5,False,Loaded secondary voltage error,True,9.985483468820695,True,True,True,True
+A selected winding turns,fixed core,650,68,12.0,1.3273894404880413,22.302905527426308,1.5,False,Loaded secondary voltage error,True,9.989534626391691,True,True,True,True
+A selected winding turns,fixed core,655,69,12.0,1.3172566966675219,22.45015654885911,1.5,False,Loaded secondary voltage error,True,9.994844801510615,True,True,True,True
+A selected winding turns,fixed core,660,69,12.0,1.3072774792685256,22.255745439791376,1.5,False,Loaded secondary voltage error,True,10.080487154470774,True,True,True,True
+A selected winding turns,fixed core,665,70,12.0,1.297448325289063,22.400558590495528,1.5,False,Loaded secondary voltage error,True,10.087398276203619,True,True,True,True
+A selected winding turns,fixed core,670,70,12.0,1.2877658751003387,22.20896653647691,1.5,False,Loaded secondary voltage error,True,10.175340101338975,True,True,True,True
+A selected winding turns,fixed core,675,71,12.0,1.2782268686181137,22.35140900461414,1.5,False,Loaded secondary voltage error,True,10.183768875830575,True,True,True,True
+A selected winding turns,fixed core,680,71,12.0,1.2688281416429805,22.16254668692319,1.5,False,Loaded secondary voltage error,True,10.273932130533673,True,True,True,True
+A selected winding turns,fixed core,685,72,12.0,1.259566622360915,22.302682853859586,1.5,False,Loaded secondary voltage error,True,10.28380157007131,True,True,True,True
+A selected winding turns,fixed core,690,72,12.0,1.250439327995981,22.116464973396642,1.5,False,Loaded secondary voltage error,True,10.376114537970178,True,True,True,True
+A selected winding turns,fixed core,695,73,12.0,1.2414433616075207,22.254356566085015,1.5,False,Loaded secondary voltage error,True,10.387353423047337,True,True,True,True
+A selected winding turns,fixed core,700,73,12.0,1.2325759090246098,22.0707016029178,1.5,False,Loaded secondary voltage error | Secondary current density,True,10.481750197151246,True,True,True,True
+A selected winding turns,fixed core,705,74,12.0,1.2238342359109602,22.180588282273316,1.5,False,Loaded secondary voltage error,True,10.62071124552626,True,True,True,True
+A selected winding turns,fixed core,710,74,12.0,1.2152156849538405,21.999034610748893,1.5,False,Loaded secondary voltage error | Secondary current density,True,10.720196497154136,True,True,True,True
+A selected winding turns,fixed core,715,75,12.0,1.2067176731709466,22.13226994230525,1.5,False,Loaded secondary voltage error,True,10.734913254497181,True,True,True,True
+A selected winding turns,fixed core,720,75,12.0,1.1983376893294817,21.95312520791095,1.5,False,Loaded secondary voltage error | Secondary current density,True,10.836407514486373,True,True,True,True
+A selected winding turns,fixed core,725,76,12.0,1.1900732914720369,22.084283233726584,1.5,False,Loaded secondary voltage error | Secondary current density,True,10.852321648359204,True,True,True,True
+A selected winding turns,fixed core,730,76,12.0,1.1819221045441464,21.907475880380556,1.5,False,Loaded secondary voltage error | Secondary current density,True,10.955774483314686,True,True,True,True
+A selected winding turns,fixed core,735,77,12.0,1.1738818181186759,22.036609050910073,1.5,False,Loaded secondary voltage error | Secondary current density,True,10.972833599425355,True,True,True,True
+A selected winding turns,fixed core,740,77,12.0,1.1659501842124687,21.862070502132966,1.5,False,Loaded secondary voltage error | Secondary current density,True,11.078198796566262,True,True,True,True
+A selected winding turns,fixed core,745,78,12.0,1.1581250151909084,21.98922923553065,1.5,False,Loaded secondary voltage error | Secondary current density,True,11.096354277808611,True,True,True,True
+A selected winding turns,fixed core,750,79,12.0,1.1504041817563024,22.11439294774573,1.5,False,Loaded secondary voltage error,True,11.11544737727546,True,True,True,True
+A selected winding turns,fixed core,755,79,12.0,1.1427856110161945,21.942126512113735,1.5,False,Loaded secondary voltage error | Secondary current density,True,11.22279624508012,True,True,True,True
+A selected winding turns,fixed core,760,80,12.0,1.13526728462793,22.06541469964609,1.5,False,Loaded secondary voltage error | Secondary current density,True,11.242917822183674,True,True,True,True
+A selected winding turns,fixed core,765,80,12.0,1.1278472370159827,21.895284428589115,1.5,False,Loaded secondary voltage error | Secondary current density,True,11.352078903873851,True,True,True,True
+A selected winding turns,fixed core,770,81,12.0,1.1205235536587361,22.016741817133358,1.5,False,Loaded secondary voltage error | Secondary current density,True,11.373188568425512,True,True,True,True
+A selected winding turns,fixed core,775,81,12.0,1.113294369441583,21.848687301396467,1.5,False,Loaded secondary voltage error | Secondary current density,True,11.484127997724858,True,True,True,True
+A selected winding turns,fixed core,780,82,12.0,1.1061578670733676,21.968356967952907,1.5,False,Loaded secondary voltage error | Secondary current density,True,11.50618821895515,True,True,True,True
+A selected winding turns,fixed core,785,82,12.0,1.0991122755633462,21.802320164734635,1.5,False,Loaded secondary voltage error | Secondary current density,True,11.618875156080772,True,True,True,True
+A selected winding turns,fixed core,790,83,12.0,1.0921558687559831,21.920243615978862,1.5,False,Loaded secondary voltage error | Secondary current density,True,11.641851051158733,True,True,True,True
+A selected winding turns,fixed core,795,83,12.0,1.08528696392104,21.72600293233082,1.5,False,Loaded secondary voltage error | Secondary current density,True,11.909355475578357,True,True,True,True
+A selected winding turns,fixed core,800,84,12.0,1.0785039203965334,21.84186310549506,1.5,False,Loaded secondary voltage error | Secondary current density,True,11.934249675203178,True,True,True,True
+A selected winding turns,fixed core,805,84,12.0,1.0718051382822693,21.6792832957206,1.5,False,Loaded secondary voltage error | Secondary current density,True,12.053785790587252,True,True,True,True
+A selected winding turns,fixed core,810,85,12.0,1.0651890571817615,21.793472354614877,1.5,False,Loaded secondary voltage error | Secondary current density,True,12.079546630756306,True,True,True,True
+A selected winding turns,fixed core,815,85,12.0,1.0586541549904622,21.632746897174343,1.5,False,Loaded secondary voltage error | Secondary current density,True,12.200803344379775,True,True,True,True
+A selected winding turns,fixed core,820,86,12.0,1.0521989467283253,21.745302059391523,1.5,False,Loaded secondary voltage error | Secondary current density,True,12.227403024249895,True,True,True,True
+A selected winding turns,fixed core,825,86,12.0,1.0458219834148204,21.58638109656985,1.5,False,Loaded secondary voltage error | Secondary current density,True,12.350360673074466,True,False,False,False
+A selected winding turns,fixed core,830,87,12.0,1.0395218509846105,21.697338278032557,1.5,False,Loaded secondary voltage error | Secondary current density,True,12.377773371695719,True,True,True,True
+A selected winding turns,fixed core,835,88,12.0,1.0332971692421877,21.80668126683996,1.5,False,Loaded secondary voltage error | Secondary current density,False,,True,True,True,False
+A selected winding turns,fixed core,840,88,12.0,1.0271465908538415,21.649567639414514,1.5,False,Loaded secondary voltage error | Secondary current density,False,,True,True,True,False
+A selected winding turns,fixed core,845,89,12.0,1.0210688003754163,21.757383719698986,1.5,False,Loaded secondary voltage error | Secondary current density,False,,True,True,True,False
+A selected winding turns,fixed core,850,89,12.0,1.0150625133143845,21.6019773072719,1.5,False,Loaded secondary voltage error | Secondary current density,False,,True,True,True,False
+A selected winding turns,fixed core,855,90,12.0,1.0091264752248266,21.708298706098873,1.5,False,Loaded secondary voltage error | Secondary current density,False,,True,True,True,False
+A selected winding turns,fixed core,860,90,12.0,1.0032594608339847,21.554554946812885,1.5,False,Loaded secondary voltage error | Secondary current density,False,,True,False,False,False
+A selected winding turns,fixed core,865,91,12.0,0.9974602731991061,21.659412811183863,1.5,False,Loaded secondary voltage error | Secondary current density,False,,True,True,True,False
+A selected winding turns,fixed core,870,91,12.0,0.9917277428933641,21.507288693563588,1.5,False,Loaded secondary voltage error | Secondary current density,False,,True,False,False,False
+A selected winding turns,fixed core,875,92,12.0,0.9860607272196877,21.610713136367103,1.5,False,Loaded secondary voltage error | Secondary current density,False,,True,True,True,False
+A selected winding turns,fixed core,880,92,12.0,0.9804581094513941,21.460167124260558,1.5,False,Loaded secondary voltage error | Secondary current density,False,,True,False,False,False
+A selected winding turns,fixed core,885,93,12.0,0.9749187980985613,21.527356039158825,1.5,False,Loaded secondary voltage error | Secondary current density,False,,True,False,False,False
+A selected winding turns,fixed core,890,93,12.0,0.9694417261991312,21.37790152234751,1.5,False,Bare-copper window fill | Loaded secondary voltage error | Secondary current density,False,,True,False,False,False
+A selected winding turns,fixed core,895,94,12.0,0.9640258506337729,21.478167451949652,1.5,False,Bare-copper window fill | Loaded secondary voltage error | Secondary current density,False,,True,False,False,False
+A selected winding turns,fixed core,900,94,12.0,0.9586701514635853,21.33020905023633,1.5,False,Bare-copper window fill | Loaded secondary voltage error | Secondary current density,False,,True,False,False,False
+B area geometries,proportional dimensions,600,63,9.0,1.9173403029271703,22.67612106151795,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,fixed stamping,600,63,9.0,1.9173403029271703,22.72913846404092,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,proportional dimensions,600,63,9.125,1.8910753672706344,22.69021625500441,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,fixed stamping,600,63,9.125,1.8910753672706342,22.722286599232927,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,proportional dimensions,600,63,9.25,1.8655202947399496,22.685069219469252,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,fixed stamping,600,63,9.25,1.8655202947399496,22.715430322193455,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,proportional dimensions,600,63,9.375,1.8406466908100843,22.678107026023675,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,fixed stamping,600,63,9.375,1.8406466908100836,22.708569624387795,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,proportional dimensions,600,63,9.5,1.8164276554046879,22.67046047216909,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,fixed stamping,600,63,9.5,1.8164276554046879,22.701704497253683,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,proportional dimensions,600,63,9.625,1.7928376858539774,22.66359006808523,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,fixed stamping,600,63,9.625,1.7928376858539778,22.694834932201186,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,proportional dimensions,600,63,9.75,1.7698525873173878,22.659364803105955,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,fixed stamping,600,63,9.75,1.7698525873173883,22.68796092061256,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,proportional dimensions,600,63,9.875,1.7474493900095727,22.651852552164385,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,fixed stamping,600,63,9.875,1.7474493900095731,22.681082453842148,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,proportional dimensions,600,63,10.0,1.7256062726344537,22.64511516314159,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,fixed stamping,600,63,10.0,1.7256062726344537,22.67419952321623,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,proportional dimensions,600,63,10.125,1.7043024914908182,22.637686846108032,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,fixed stamping,600,63,10.125,1.7043024914908182,22.667312120032907,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,proportional dimensions,600,63,10.25,1.6835183147653203,22.631032794708734,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,fixed stamping,600,63,10.25,1.6835183147653203,22.660420235561972,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,proportional dimensions,600,63,10.375,1.6632349615753774,22.626293809119456,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,fixed stamping,600,63,10.375,1.663234961575377,22.65352386104478,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,proportional dimensions,600,63,10.5,1.6434345453661459,22.619721703449223,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,fixed stamping,600,63,10.5,1.6434345453661459,22.646622987694116,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,proportional dimensions,600,63,10.625,1.6241000213030146,22.613188901975818,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,fixed stamping,600,63,10.625,1.624100021303015,22.639717606694063,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,proportional dimensions,600,63,10.75,1.6052151373343755,22.605959286777917,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,fixed stamping,600,63,10.75,1.6052151373343755,22.632807709199877,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,proportional dimensions,600,63,10.875,1.5867643886293823,22.599502589435453,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,fixed stamping,600,63,10.875,1.5867643886293823,22.625893286337856,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,proportional dimensions,600,63,11.0,1.56873297512223,22.594091059459664,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,fixed stamping,600,63,11.0,1.5687329751222308,22.618974329205194,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,proportional dimensions,600,63,11.125,1.5511067619186096,22.587708925466615,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,fixed stamping,600,63,11.125,1.55110676191861,22.612050828869858,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,False,,False,True,False,False
+B area geometries,proportional dimensions,600,63,11.25,1.533872242341736,22.580625631975717,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,True,9.517003106304331,False,True,False,False
+B area geometries,fixed stamping,600,63,11.25,1.5338722423417361,22.605122776370457,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,True,9.485954203863951,False,True,False,False
+B area geometries,proportional dimensions,600,63,11.375,1.517016503414904,22.574314537733144,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,True,9.532265731208078,False,True,False,False
+B area geometries,fixed stamping,600,63,11.375,1.5170165034149041,22.598190162716094,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,True,9.488933688302266,False,True,False,False
+B area geometries,proportional dimensions,600,63,11.5,1.5005271935951767,22.56817441384239,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,True,9.546827173728257,False,True,False,False
+B area geometries,fixed stamping,600,63,11.5,1.5005271935951772,22.591252978886235,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,True,9.49260228422514,False,True,False,False
+B area geometries,proportional dimensions,600,63,11.625,1.4843924925887775,22.58305388450898,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,True,9.462267050536376,True,True,True,True
+B area geometries,fixed stamping,600,63,11.625,1.4843924925887773,22.58431121583058,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,True,9.496939209270643,True,True,True,True
+B area geometries,proportional dimensions,600,63,11.75,1.4686010830931517,22.576120742163184,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,True,9.481021415826055,True,True,True,True
+B area geometries,fixed stamping,600,63,11.75,1.4686010830931517,22.577364864468922,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,True,9.501924570108242,True,True,True,True
+B area geometries,proportional dimensions,600,63,11.875,1.4531421243237503,22.569773342996882,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,True,9.497353843552665,True,True,True,True
+B area geometries,fixed stamping,600,63,11.875,1.4531421243237503,22.570413915690995,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,True,9.507539315668925,True,True,True,True
+B area geometries,proportional dimensions,600,63,12.0,1.4380052271953783,22.563458360356353,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,True,9.513765193298564,True,True,True,True
+B area geometries,fixed stamping,600,63,12.0,1.4380052271953778,22.563458360356353,1.5,False,Peak flux at screening envelope | Loaded secondary voltage error,True,9.513765193298564,True,True,True,True
+B area geometries,proportional dimensions,600,63,12.125,1.4231804310387246,22.557496251674426,1.5,False,Loaded secondary voltage error,True,9.528622497608742,True,True,True,True
+B area geometries,fixed stamping,600,63,12.125,1.4231804310387244,22.556498189294217,1.5,False,Loaded secondary voltage error,True,9.520584707623613,True,True,True,True
+B area geometries,proportional dimensions,600,63,12.25,1.4086581817424109,22.551244786174134,1.5,False,Loaded secondary voltage error,True,9.54518036695894,True,True,True,True
+B area geometries,fixed stamping,600,63,12.25,1.408658181742411,22.549533393303342,1.5,False,Loaded secondary voltage error,True,9.527981081935323,True,True,True,True
+B area geometries,proportional dimensions,600,63,12.375,1.3944293112197605,22.544469440299103,1.5,False,Loaded secondary voltage error,True,9.564333427605135,True,True,True,True
+B area geometries,fixed stamping,600,63,12.375,1.3944293112197603,22.54256396315187,1.5,False,Loaded secondary voltage error,True,9.535938221914433,True,True,True,True
+B area geometries,proportional dimensions,600,63,12.5,1.380485018107563,22.538279045411127,1.5,False,Loaded secondary voltage error,True,9.581030016325302,True,True,True,True
+B area geometries,fixed stamping,600,63,12.5,1.3804850181075627,22.535589889577192,1.5,False,Loaded secondary voltage error,True,9.544440681532514,True,True,True,True
+B area geometries,proportional dimensions,600,63,12.625,1.3668168496114481,22.531563160127284,1.5,False,Loaded secondary voltage error,True,9.600323199132903,True,True,True,True
+B area geometries,fixed stamping,600,63,12.625,1.3668168496114481,22.528611163285795,1.5,False,Loaded secondary voltage error,True,9.553473630979095,True,True,True,True
+B area geometries,proportional dimensions,600,63,12.75,1.3534166844191797,22.52630975766758,1.5,False,Loaded secondary voltage error,True,9.612974278768535,True,True,True,True
+B area geometries,fixed stamping,600,63,12.75,1.3534166844191793,22.521627774953135,1.5,False,Loaded secondary voltage error,True,9.563022826475532,True,True,True,True
+B area geometries,proportional dimensions,600,63,12.875,1.3402767166092842,22.519652116979252,1.5,False,Loaded secondary voltage error,True,9.632391261231929,True,True,True,True
+B area geometries,fixed stamping,600,63,12.875,1.3402767166092842,22.51463971522347,1.5,False,Loaded secondary voltage error,True,9.57307458184747,True,True,True,True
+B area geometries,proportional dimensions,600,63,13.0,1.3273894404880409,22.513578987386094,1.5,False,Loaded secondary voltage error,True,9.649326731007832,True,True,True,True
+B area geometries,fixed stamping,600,63,13.0,1.327389440488041,22.50764697470973,1.5,False,Loaded secondary voltage error,True,9.5836157417374,True,True,True,True
+B area geometries,proportional dimensions,600,63,13.125,1.3147476362929171,22.506977338343773,1.5,False,Loaded secondary voltage error,True,9.66886236766664,True,True,True,True
+B area geometries,fixed stamping,600,63,13.125,1.314747636292917,22.500649543993358,1.5,False,Loaded secondary voltage error,True,9.594633656348115,True,True,True,True
+B area geometries,proportional dimensions,600,63,13.25,1.302344356705248,22.500960060311133,1.5,False,Loaded secondary voltage error,True,9.685904487644851,True,True,True,True
+B area geometries,fixed stamping,600,63,13.25,1.302344356705248,22.493647413624178,1.5,False,Loaded secondary voltage error,True,9.60611615761586,True,True,True,True
+B area geometries,proportional dimensions,600,63,13.375,1.2901729141192175,22.494412792800063,1.5,False,Loaded secondary voltage error,True,9.705549276256603,True,True,True,True
+B area geometries,fixed stamping,600,63,13.375,1.2901729141192175,22.48664057412023,1.5,False,Loaded secondary voltage error,True,9.61805153671973,True,True,True,True
+B area geometries,proportional dimensions,600,63,13.5,1.2782268686181135,22.489330653917364,1.5,False,Loaded secondary voltage error,True,9.718487713798352,True,True,True,True
+B area geometries,fixed stamping,600,63,13.5,1.2782268686181135,22.479629015967628,1.5,False,Loaded secondary voltage error,True,9.630428522840601,True,True,True,True
+B area geometries,proportional dimensions,600,63,13.625,1.2665000166124432,22.482836782125396,1.5,False,Loaded secondary voltage error,True,9.738227829608382,True,True,True,True
+B area geometries,fixed stamping,600,63,13.625,1.266500016612443,22.47261272962041,1.5,False,Loaded secondary voltage error,True,9.643236263089515,True,True,True,True
+B area geometries,proportional dimensions,600,63,13.75,1.2549863800977843,22.47692705119688,1.5,False,Loaded secondary voltage error,True,9.75545213379726,True,True,True,True
+B area geometries,fixed stamping,600,63,13.75,1.2549863800977843,22.46559170550038,1.5,False,Loaded secondary voltage error,True,9.656464303530884,True,True,True,True
+B area geometries,proportional dimensions,600,63,13.875,1.2436801964932995,22.47048455685034,1.5,False,Loaded secondary voltage error,True,9.77528455060689,True,True,True,True
+B area geometries,fixed stamping,600,63,13.875,1.2436801964932997,22.458565933996958,1.5,False,Loaded secondary voltage error,True,9.67010257123169,True,True,True,True
+B area geometries,proportional dimensions,600,63,14.0,1.2325759090246091,22.464626157623137,1.5,False,Loaded secondary voltage error,True,9.792590355572296,True,True,True,True
+B area geometries,fixed stamping,600,63,14.0,1.2325759090246098,22.45153540546704,1.5,False,Loaded secondary voltage error,True,9.684141357272383,True,True,True,True
+B area geometries,proportional dimensions,600,63,14.125,1.221668157617312,22.45911706792284,1.5,False,Loaded secondary voltage error,True,9.808282717169226,True,True,True,True
+B area geometries,fixed stamping,600,63,14.125,1.221668157617312,22.444500110234817,1.5,False,Loaded secondary voltage error,True,9.698571300660026,True,True,True,True
+B area geometries,proportional dimensions,600,63,14.25,1.2109517702697918,22.452749404643484,1.5,False,Loaded secondary voltage error,True,9.828236504669682,True,True,True,True
+B area geometries,fixed stamping,600,63,14.25,1.2109517702697918,22.437460038591645,1.5,False,Loaded secondary voltage error,True,9.713383373088194,True,True,True,True
+B area geometries,proportional dimensions,600,63,14.375,1.2004217548761416,22.446965785052637,1.5,False,Loaded secondary voltage error,True,9.84564840936367,True,True,True,True
+B area geometries,fixed stamping,600,63,14.375,1.2004217548761418,22.430415180795872,1.5,False,Loaded secondary voltage error,True,9.72856886449216,True,True,True,True
+B area geometries,proportional dimensions,600,63,14.5,1.1900732914720369,22.440646111521193,1.5,False,Loaded secondary voltage error,True,9.865676794322681,True,True,True,True
+B area geometries,fixed stamping,600,63,14.5,1.1900732914720369,22.423365527072693,1.5,False,Loaded secondary voltage error,True,9.74411936935135,True,True,True,True
+B area geometries,proportional dimensions,600,63,14.625,1.1799017248782586,22.434910500993542,1.5,False,Loaded secondary voltage error,True,9.883153295795488,True,True,True,True
+B area geometries,fixed stamping,600,63,14.625,1.1799017248782588,22.41631106761398,1.5,False,Loaded secondary voltage error,True,9.760026773694296,True,True,True,True
+B area geometries,proportional dimensions,600,63,14.75,1.1699025577182736,22.429523516399414,1.5,False,Loaded secondary voltage error,True,9.899001938210999,True,True,True,True
+B area geometries,fixed stamping,600,63,14.75,1.1699025577182738,22.409251792578125,1.5,False,Loaded secondary voltage error,True,9.776283242764567,True,True,True,True
+B area geometries,proportional dimensions,600,63,14.875,1.1600714437878676,22.42383517208338,1.5,False,Loaded secondary voltage error,True,9.916532622550948,True,True,True,True
+B area geometries,fixed stamping,600,63,14.875,1.1600714437878679,22.4021876920899,1.5,False,Loaded secondary voltage error,True,9.792881209308629,True,True,True,True
+B area geometries,proportional dimensions,600,63,15.0,1.1504041817563024,22.417608305372553,1.5,False,Loaded secondary voltage error,True,9.936687142774474,True,True,True,True
+B area geometries,fixed stamping,600,63,15.0,1.1504041817563024,22.395118756240258,1.5,False,Loaded secondary voltage error,True,9.809813362449466,True,True,True,True
+B area geometries,proportional dimensions,600,63,15.125,1.140896709179804,22.433446087985104,1.5,False,Loaded secondary voltage error,True,9.851212768971822,True,True,True,True
+B area geometries,fixed stamping,600,63,15.125,1.140896709179804,22.388044975086206,1.5,False,Loaded secondary voltage error,True,9.827072637112037,True,True,True,True
+B area geometries,proportional dimensions,600,63,15.25,1.131545096809478,22.42727643282013,1.5,False,Loaded secondary voltage error,True,9.871306186536284,True,True,True,True
+B area geometries,fixed stamping,600,63,15.25,1.1315450968094776,22.380966338650623,1.5,False,Loaded secondary voltage error,True,9.844652203968899,True,True,True,True
+B area geometries,proportional dimensions,600,63,15.375,1.12234554317688,22.421529378398112,1.5,False,Loaded secondary voltage error,True,9.889572855514793,True,True,True,True
+B area geometries,fixed stamping,600,63,15.375,1.1223455431768803,22.3738828369221,1.5,False,Loaded secondary voltage error,True,9.862545459876426,True,True,True,True
+B area geometries,proportional dimensions,600,63,15.5,1.1132943694415829,22.41628993283698,1.5,False,Loaded secondary voltage error,True,9.905461481204277,True,True,True,True
+B area geometries,fixed stamping,600,63,15.5,1.1132943694415829,22.366794459854777,1.5,False,Loaded secondary voltage error,True,9.880746018773896,True,True,True,True
+B area geometries,proportional dimensions,600,63,15.625,1.1043880144860503,22.41058641731984,1.5,False,Loaded secondary voltage error,True,9.923770329244116,True,True,True,True
+B area geometries,fixed stamping,600,63,15.625,1.10438801448605,22.359701197368175,1.5,False,Loaded secondary voltage error,True,9.899247703019542,True,True,True,True
+B area geometries,proportional dimensions,600,63,15.75,1.0956230302440972,22.404502475086705,1.5,False,Loaded secondary voltage error,True,9.943961965015259,True,True,True,True
+B area geometries,fixed stamping,600,63,15.75,1.0956230302440975,22.352603039347024,1.5,False,Loaded secondary voltage error,True,9.918044535139302,True,True,True,True
+B area geometries,proportional dimensions,600,63,15.875,1.0869960772500498,22.398840968355685,1.5,False,Loaded secondary voltage error,True,9.962313093770215,True,True,True,True
+B area geometries,fixed stamping,600,63,15.875,1.0869960772500495,22.34549997564111,1.5,False,Loaded secondary voltage error,True,9.937130729965485,True,True,True,True
+B area geometries,proportional dimensions,600,63,16.0,1.0785039203965332,22.39279807508388,1.5,False,Loaded secondary voltage error,True,9.982549637921297,True,True,True,True
+B area geometries,fixed stamping,600,63,16.0,1.0785039203965334,22.338391996065088,1.5,False,Loaded secondary voltage error,True,9.95650068714409,True,True,True,True
+B area geometries,proportional dimensions,600,63,16.125,1.0701434248895836,22.38677522055369,1.5,False,Loaded secondary voltage error,True,10.002808323129038,True,True,True,True
+B area geometries,fixed stamping,600,63,16.125,1.0701434248895836,22.33127909039832,1.5,False,Loaded secondary voltage error,True,9.976148983990724,True,True,True,True
+B area geometries,proportional dimensions,600,63,16.25,1.061911552390433,22.382064791557475,1.5,False,Loaded secondary voltage error,True,10.01693046505994,True,True,True,True
+B area geometries,fixed stamping,600,63,16.25,1.0619115523904328,22.3241612483847,1.5,False,Loaded secondary voltage error,True,9.996070368676335,True,True,True,True
+B area geometries,proportional dimensions,600,63,16.375,1.0538053573340174,22.376082053871343,1.5,False,Loaded secondary voltage error,True,10.037223340671417,True,True,True,True
+B area geometries,fixed stamping,600,63,16.375,1.0538053573340174,22.317038459732494,1.5,False,Loaded secondary voltage error,True,10.016259753725256,True,True,True,True
+B area geometries,proportional dimensions,600,63,16.5,1.0458219834148201,22.370521661078605,1.5,False,Loaded secondary voltage error,True,10.055659364580157,True,True,True,True
+B area geometries,fixed stamping,600,63,16.5,1.0458219834148204,22.30991071411414,1.5,False,Loaded secondary voltage error,True,10.036712209808785,True,True,True,True
+B area geometries,proportional dimensions,600,63,16.625,1.0379586602312503,22.364577600468365,1.5,False,Loaded secondary voltage error,True,10.07598761644607,True,True,True,True
+B area geometries,fixed stamping,600,63,16.625,1.0379586602312503,22.302778001166104,1.5,False,Loaded secondary voltage error,True,10.05742295981897,True,True,True,True
+B area geometries,proportional dimensions,600,63,16.75,1.0302127000802708,22.35905588731406,1.5,False,Loaded secondary voltage error,True,10.094452652591821,True,True,True,True
+B area geometries,fixed stamping,600,63,16.75,1.0302127000802708,22.29564031048868,1.5,False,Loaded secondary voltage error,False,,True,True,True,False
+B area geometries,proportional dimensions,600,63,16.875,1.022581494894491,22.353149617626144,1.5,False,Loaded secondary voltage error,False,,True,True,True,False
+B area geometries,fixed stamping,600,63,16.875,1.022581494894491,22.288497631645832,1.5,False,Loaded secondary voltage error,False,,True,True,True,False
+B area geometries,proportional dimensions,600,63,17.0,1.015062513314384,22.34855864744076,1.5,False,Loaded secondary voltage error,False,,True,True,True,False
+B area geometries,fixed stamping,600,63,17.0,1.0150625133143845,22.281349954165,1.5,False,Loaded secondary voltage error,False,,True,True,True,False
+B area geometries,proportional dimensions,600,63,17.125,1.0076532978887318,22.34268982557783,1.5,False,Loaded secondary voltage error,False,,True,True,True,False
+B area geometries,fixed stamping,600,63,17.125,1.007653297888732,22.27419726753693,1.5,False,Loaded secondary voltage error,False,,True,True,True,False
+B area geometries,proportional dimensions,600,63,17.25,1.0003514623967846,22.33683904586812,1.5,False,Loaded secondary voltage error,False,,True,True,True,False
+B area geometries,fixed stamping,600,63,17.25,1.0003514623967846,22.26703956121549,1.5,False,Loaded secondary voltage error,False,,True,True,True,False
+B area geometries,proportional dimensions,600,63,17.375,0.9931546892860162,22.33141065388087,1.5,False,Loaded secondary voltage error,False,,True,True,True,False
+B area geometries,fixed stamping,600,63,17.375,0.9931546892860164,22.259876824617493,1.5,False,Loaded secondary voltage error,False,,True,True,True,False
+B area geometries,proportional dimensions,600,63,17.5,0.9860607272196876,22.32559558731141,1.5,False,Loaded secondary voltage error,False,,True,True,True,False
+B area geometries,fixed stamping,600,63,17.5,0.9860607272196877,22.252709047122508,1.5,False,Loaded secondary voltage error,False,,True,True,True,False
+B area geometries,proportional dimensions,600,63,17.625,0.9790673887287679,22.32020295851583,1.5,False,Loaded secondary voltage error,False,,True,True,True,False
+B area geometries,fixed stamping,600,63,17.625,0.9790673887287679,22.245536218072687,1.5,False,Loaded secondary voltage error,False,,True,True,True,False
+B area geometries,proportional dimensions,600,63,17.75,0.9721725479630725,22.315318659799754,1.5,False,Loaded secondary voltage error,False,,True,True,True,False
+B area geometries,fixed stamping,600,63,17.75,0.9721725479630724,22.23835832677256,1.5,False,Loaded secondary voltage error,False,,True,True,True,False
+B area geometries,proportional dimensions,600,63,17.875,0.965374138536757,22.30996149618929,1.5,False,Loaded secondary voltage error,False,,True,True,True,False
+B area geometries,fixed stamping,600,63,17.875,0.9653741385367572,22.231175362488873,1.5,False,Loaded secondary voltage error,False,,True,True,True,False
+B area geometries,proportional dimensions,600,63,18.0,0.9586701514635851,22.30421604983114,1.5,False,Loaded secondary voltage error,False,,True,True,True,False
+B area geometries,fixed stamping,600,63,18.0,0.9586701514635851,22.223987314450387,1.5,False,Loaded secondary voltage error,False,,True,True,True,False

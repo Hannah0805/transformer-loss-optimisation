@@ -1,0 +1,4 @@
+scenario,kh,kh_unit,ke,ke_unit,n,n_unit,reference_f_hz,reference_peak_t,reference_sheet_thickness_m,reference_hysteresis_w_kg,reference_eddy_w_kg,implied_classical_resistivity_ohm_m,provenance
+low,0.006722835980828564,W kg^-1 Hz^-1 T^-1.6,340.13605442176873,W kg^-1 Hz^-2 T^-2 m^-2,1.6,dimensionless,50.0,1.2,0.00035,0.45,0.15,6.288824650889187e-07,Illustrative assumption; no material fit
+medium,0.010803513430590085,W kg^-1 Hz^-1 T^-1.8,566.8934240362812,W kg^-1 Hz^-2 T^-2 m^-2,1.8,dimensionless,50.0,1.2,0.00035,0.75,0.25,3.7732947905335124e-07,Illustrative assumption; no material fit
+high,0.014583333333333334,W kg^-1 Hz^-1 T^-2,793.6507936507936,W kg^-1 Hz^-2 T^-2 m^-2,2.0,dimensionless,50.0,1.2,0.00035,1.05,0.35,2.695210564666795e-07,Illustrative assumption; no material fit
