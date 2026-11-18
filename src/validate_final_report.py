@@ -1,11 +1,11 @@
-"""Independently audit the Stage 4 v2 grid from its saved input and coefficient tables."""
+"""Independently audit the design grid from its input and coefficient tables."""
 
 from csv import DictReader
 from math import ceil, floor, inf, isclose, nextafter, pi, sqrt
 from pathlib import Path
 
 
-DATA = Path(__file__).resolve().parents[1] / "analysis/stage4_assumption_based_v2/data"
+DATA = Path(__file__).resolve().parents[1] / "data"
 
 
 def table(name):

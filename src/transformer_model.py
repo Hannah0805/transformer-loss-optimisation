@@ -7,7 +7,7 @@ from .core_geometry import (
     EICore, WindowClearances, WindingLayout, require_nonnegative, require_positive,
     require_turns, winding_layout,
 )
-from .material_models import Copper, HysteresisScenario, LaminatedSteel
+from .material_models import Copper, LaminatedSteel
 
 
 def ideal_secondary_voltage(primary_rms_v: float, primary_turns: int, secondary_turns: int) -> float:
@@ -134,18 +134,10 @@ class DesignResult:
     primary_copper_w: float
     secondary_copper_w: float
     classical_w: float
-    hysteresis: HysteresisScenario | None
-    hysteresis_w: float | None
 
     @property
     def copper_w(self) -> float:
         return self.primary_copper_w + self.secondary_copper_w
-
-    @property
-    def separated_total_w(self) -> float | None:
-        if self.hysteresis_w is None:
-            return None
-        return self.copper_w + self.classical_w + self.hysteresis_w
 
     @property
     def bare_copper_fill(self) -> float:
@@ -164,7 +156,6 @@ def evaluate_design(
     secondary: Winding,
     copper: Copper,
     steel: LaminatedSteel,
-    hysteresis: HysteresisScenario | None = None,
     *,
     fixed_va: bool = False,
 ) -> DesignResult:
@@ -183,9 +174,6 @@ def evaluate_design(
     loaded_peak = peak_flux_density(load.primary_induced_rms_v, spec.frequency_hz,
                                    primary.turns, core.effective_area_m2)
     mass = core.steel_mass_kg(steel.density_kg_m3)
-    hysteresis_w = None
-    if hysteresis is not None and hysteresis.contains(loaded_peak):
-        hysteresis_w = mass * hysteresis.specific_loss_w_kg(spec.frequency_hz, loaded_peak)
     return DesignResult(
         spec=spec, core=core, primary=primary, secondary=secondary,
         primary_layout=p_layout, secondary_layout=s_layout,
@@ -198,5 +186,4 @@ def evaluate_design(
         primary_copper_w=load.primary_rms_a**2 * primary_ohm,
         secondary_copper_w=load.secondary_rms_a**2 * secondary_ohm,
         classical_w=mass * steel.classical_loss_w_kg(spec.frequency_hz, loaded_peak),
-        hysteresis=hysteresis, hysteresis_w=hysteresis_w,
     )

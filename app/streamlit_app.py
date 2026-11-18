@@ -1,4 +1,4 @@
-"""Interactive portfolio dashboard backed by the Stage 4 v2 candidate evaluator."""
+"""Interactive portfolio dashboard backed by the shared candidate evaluator."""
 
 import csv
 import io
@@ -16,8 +16,8 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from analysis.stage4_assumption_based_v2.run import (
-    DATA, FLUX_LIMIT, MINIMUM_VOLTAGE, SCENARIOS, build_model, input_parameters,
+from src.optimisation import (
+    DATA, FLUX_LIMIT, MINIMUM_VOLTAGE, SCENARIOS, build_model, load_parameters,
 )
 from src.grid_support import AREAS, TURNS
 
@@ -36,8 +36,7 @@ st.set_page_config(page_title="Transformer Loss Explorer", layout="wide")
 
 @st.cache_resource
 def load_model():
-    _, values = input_parameters()
-    return build_model(values)
+    return build_model(load_parameters())
 
 
 @st.cache_data
@@ -129,10 +128,8 @@ def overview():
                 github = st.secrets.get("PORTFOLIO_GITHUB_URL")
             except StreamlitSecretNotFoundError:
                 github = None
-        if github:
-            st.link_button("GitHub repository", github, icon=":material/open_in_new:")
-        else:
-            st.caption("The GitHub link will appear after publication is approved and verified.")
+        repository = github or "https://github.com/Hannah0805/transformer-loss-optimisation"
+        st.link_button("GitHub repository", repository, icon=":material/open_in_new:")
     st.subheader("Baseline and screened minimum")
     st.altair_chart(comparison_chart(reference, best, "medium"), width="stretch")
     st.caption(

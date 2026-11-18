@@ -1,7 +1,3 @@
-# Model and tests use the Python standard library. These packages execute the notebook.
-ipykernel==6.30.1
-nbclient==0.10.2
-nbformat==5.10.4
 # Sensitivity figures
 matplotlib==3.10.7
 # Direct numerical dependency for the optimisation maps

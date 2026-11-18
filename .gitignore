@@ -11,4 +11,9 @@ venv/
 *.key
 .DS_Store
 ~$*
-publication/
+
+# Local portfolio drafts and editable report
+/CV_Project_Description.md
+/LinkedIn_Project_Description.md
+/LICENSE
+/report/Transformer_Loss_Optimisation_Report.docx

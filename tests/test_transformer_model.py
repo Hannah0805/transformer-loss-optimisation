@@ -2,9 +2,9 @@ import unittest
 from dataclasses import replace
 from math import isclose, pi, sqrt
 
-from src.constraints import DesignLimits, check_design
+from src.optimisation import build_model, load_parameters, screen
 from src.core_geometry import EICore, WindowClearances, winding_layout
-from src.material_models import Copper, HysteresisScenario, LaminatedSteel
+from src.material_models import Copper
 from src.transformer_model import (
     ElectricalSpec, Winding, evaluate_design, ideal_secondary_voltage,
     nearest_secondary_turns, peak_flux_density, resistive_load_point,
@@ -19,14 +19,12 @@ class TransformerModelTests(unittest.TestCase):
         self.primary = Winding(600, 0.45e-3, 0.50e-3, 0.20, 60)
         self.secondary = Winding(63, 1.20e-3, 1.30e-3, 0.20, 60)
         self.copper = Copper(1.7241e-8, 0.00393)
-        self.steel = LaminatedSteel(0.35e-3, 4.22e-7, 7690)
-        self.scenario = HysteresisScenario("Illustrative test input", 0.02, 1.5, 2, 1, 1.5)
-        self.limits = DesignLimits(1.5, 241.5, 50, 0.35, 0.01, 0.05, 4e6)
+        self.steel = build_model(load_parameters()).steel
 
-    def evaluate(self, scenario=None, **kwargs):
+    def evaluate(self, **kwargs):
         return evaluate_design(
             self.spec, self.core, self.clearance, self.primary, self.secondary,
-            self.copper, self.steel, scenario, **kwargs,
+            self.copper, self.steel, **kwargs,
         )
 
     def test_integer_turns_and_voltage_ratio(self):
@@ -84,7 +82,7 @@ class TransformerModelTests(unittest.TestCase):
     def test_classical_loss_units_and_scaling(self):
         volumetric = self.steel.classical_loss_w_m3(50, 1.0)
         specific = self.steel.classical_loss_w_kg(50, 1.0)
-        self.assertAlmostEqual(specific, 0.155233625861)
+        self.assertAlmostEqual(specific, 0.25 * (1 / 1.2)**2)
         self.assertAlmostEqual(volumetric / 7690, specific)
         self.assertAlmostEqual(volumetric * self.core.steel_volume_m3,
                                specific * self.core.steel_mass_kg(7690))
@@ -93,17 +91,14 @@ class TransformerModelTests(unittest.TestCase):
         thicker = replace(self.steel, sheet_thickness_m=self.steel.sheet_thickness_m * 2)
         self.assertAlmostEqual(thicker.classical_loss_w_kg(50, 1), 4 * specific)
 
-    def test_hysteresis_energy_per_cycle_and_domain(self):
-        self.assertAlmostEqual(self.scenario.specific_loss_w_kg(50, 1.5), 1.0)
-        self.assertAlmostEqual(self.scenario.specific_loss_w_kg(100, 1.2), 2.0 * (1.2/1.5)**2)
-        with self.assertRaises(ValueError):
-            self.scenario.specific_loss_w_kg(50, 1.6)
-        uncovered = self.evaluate(replace(self.scenario, min_flux_density_t=1.45))
-        self.assertIsNone(uncovered.hysteresis_w)
-        self.assertIsNone(self.evaluate().separated_total_w)
-        result = self.evaluate(self.scenario)
-        self.assertAlmostEqual(result.separated_total_w,
-                               result.copper_w + result.classical_w + result.hysteresis_w)
+    def test_loaded_flux_drives_core_losses(self):
+        model = build_model(load_parameters())
+        row = model.evaluate(600, 12.0)
+        self.assertLess(row["loaded_peak_t"], row["no_drop_peak_t"])
+        self.assertAlmostEqual(row["eddy_medium_w"], row["core_mass_kg"] *
+                               model.steel.classical_loss_w_kg(50, row["loaded_peak_t"]))
+        self.assertAlmostEqual(row["total_medium_w"], row["copper_w"] +
+                               row["eddy_medium_w"] + row["hysteresis_medium_w"])
 
     def test_load_conventions_and_power_balance(self):
         result = self.evaluate()
@@ -126,21 +121,15 @@ class TransformerModelTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "positive terminal"):
             resistive_load_point(self.spec, 0.1, 50, 100)
 
-    def test_baseline_constraints_and_rejection_reasons(self):
-        result = self.evaluate()
-        checks = {check.name: check for check in check_design(result, self.limits)}
-        self.assertTrue(checks["Ideal secondary voltage error"].passed)
-        self.assertTrue(checks["Insulated radial build"].passed)
-        self.assertTrue(checks["Bare-copper window fill"].passed)
-        self.assertFalse(checks["Loaded secondary voltage error"].passed)
-        self.assertFalse(checks["Peak flux at screening envelope"].passed)
-        self.assertTrue(all(check.passed for check in checks.values() if "current density" in check.name))
+    def test_baseline_and_winding_fit_diagnostic(self):
+        result = self.evaluate(fixed_va=True)
+        self.assertEqual(screen(result.no_drop_peak_t, result.load.secondary_terminal_rms_v), (True, True, True))
         narrow = replace(self.core, window_width_m=0.008)
         squeezed = evaluate_design(self.spec, narrow, self.clearance, self.primary,
-                                   self.secondary, self.copper, self.steel)
-        checks = {check.name: check for check in check_design(squeezed, self.limits)}
-        self.assertFalse(checks["Bare-copper window fill"].passed)
-        self.assertFalse(checks["Insulated radial build"].passed)
+                                   self.secondary, self.copper, self.steel, fixed_va=True)
+        self.assertGreater(squeezed.required_radial_build_m, squeezed.usable_width_m)
+        self.assertEqual(screen(squeezed.no_drop_peak_t, squeezed.load.secondary_terminal_rms_v),
+                         (True, True, True))
 
     def test_invalid_physical_inputs(self):
         for overrides in ({"centre_width_m": 0}, {"stacking_factor": 1.1},
@@ -155,8 +144,6 @@ class TransformerModelTests(unittest.TestCase):
             WindowClearances(0, 0, 0.030, 0).usable_dimensions(self.core)
         with self.assertRaises(ValueError):
             winding_layout(self.core, 1, 0.050, 0.040, 0)
-        with self.assertRaises(ValueError):
-            check_design(self.evaluate(), replace(self.limits, maximum_supply_rms_v=200))
 
 
 if __name__ == "__main__":

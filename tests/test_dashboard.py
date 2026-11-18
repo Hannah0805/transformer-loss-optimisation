@@ -5,7 +5,7 @@ import unittest
 
 from streamlit.testing.v1 import AppTest
 
-from analysis.stage4_assumption_based_v2.run import DATA, build_model, input_parameters
+from src.optimisation import DATA, build_model, load_parameters
 from src.grid_support import read_csv
 
 
@@ -101,8 +101,7 @@ class DashboardTests(unittest.TestCase):
         self.assertTrue(any("450:47 turns at 15.5 cm²" in note.value for note in app.caption))
 
     def test_live_evaluator_matches_each_approved_grid_row(self):
-        _, parameters = input_parameters()
-        model = build_model(parameters)
+        model = build_model(load_parameters())
         self.assertEqual(len(self.grid), 1107)
         for (turns, area), archived in self.grid.items():
             actual = model.evaluate(turns, area)
